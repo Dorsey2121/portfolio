@@ -1,0 +1,376 @@
+:root {
+  --color-primary: #fff;
+  --color-primary-light: #333232;
+  --color-primary-dark: #000;
+  --color-secondary: #d6d7d7;
+  --color-secondary-dark: #bababa;
+  --color-secondary-light: #fafafa;
+  --font-primary: "Ubuntu", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+  --shadow-primary: -1px 3px 8px rgba(0, 0, 0, .15);
+  --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
+}
+
+html {
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark);
+  background-color: var(--color-secondary-light);
+}
+
+
+li a :hover {
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--color-primary);
+}
+
+#down-arrow {
+  animation: arrow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes arrow {
+
+  0% {
+    transform: translatey(-7.5px);
+    opacity: .5;
+  }
+
+  100% {
+    transform: translatey(7.5px);
+    opacity: 1;
+  }
+}
+
+.about-me-h2 {
+  color: var(--color-primary-light);
+}
+
+.white {
+  color: var(--color-primary);
+}
+
+.btn-ghost {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 1px;
+  border-width: medium;
+  transition: all .2s linear;
+}
+
+.btn-ghost:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background-color: rgba(250, 250, 250, .2);
+  text-decoration: none;
+}
+
+.btn-ghost:active,
+.btn-ghost:focus {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background-color: rgba(250, 250, 250, .2);
+}
+
+.btn-ghost::after {
+  content: " ";
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+}
+
+.btn-ghost:active {
+  padding-bottom: .75em;
+}
+
+.btn-ghost .icon {
+  transform: translate(.2em, 0);
+  transition: all 250ms ease-in-out;
+}
+
+.btn-ghost:hover .icon,
+.btn-ghost:active .icon,
+.btn-ghost:focus .icon {
+  transform: translate(.4em, 0);
+}
+
+.btn-wrap {
+  height: 4.75rem;
+}
+
+.intro-banner {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
+    url("../images/city.jpg") bottom center / cover no-repeat fixed;
+  text-align: center;
+}
+
+.banner-content {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+#about-me {
+  height: 100vh;
+  position: relative;
+  background:
+  url("../images/about-me.jpg") bottom right / cover no-repeat;
+    z-index: 0;
+}
+
+#case-1 {
+  height: 100vh;
+  position: relative;
+  background:
+    url("../images/case-1.jpeg") center / cover no-repeat fixed;
+    z-index: 0;
+}
+
+#case-2 {
+  height: 100vh;
+  position: relative;
+  background:
+    url("../images/case-2.jpeg") center / cover no-repeat fixed;
+    z-index: 0;
+}
+
+#case-3 {
+  height: 100vh;
+  position: relative;
+  background:
+    url("../images/case-3.jpeg") center / cover no-repeat fixed;
+    z-index: 0;
+}
+
+#case-1 .pro {
+
+}
+
+.project .pro{
+  background: linear-gradient(rgba(25,19,3,0), rgba(25,19,3,1));
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 6em;
+  display: block;
+}
+
+.tags {
+  font-family: var(--font-secondary);
+  display: inline-block;
+  text-align: right;
+  color: var(--color-secondary-dark);
+  text-decoration: none;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color .25s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}
+
+.no-under,
+.no-under:hover,
+.no-under:active,
+.no-under:focus {
+  text-decoration: none;
+}
+
+a.no-under:hover,
+a.no-under:active,
+a.no-under:focus {
+  color: var(--color-secondary);
+}
+
+
+.masthead {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+
+
+.nav-label {
+  width: 2rem;
+  height: 1.5rem;
+  position: relative;
+  z-index: 1100;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.nav-label:hover,
+.nav-label:focus,
+.nav-label:active {
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+}
+
+.tog {
+  background-color: var(--color-primary);
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  transition:
+    transform .25s,
+    left .25s,
+    top .25s,
+    bottom .25s;
+}
+
+.top {
+  top: 0;
+}
+
+.middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.nav-label-open .top {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.nav-label-open .middle {
+  opacity: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.nav-label-open .bottom {
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%) rotate(-45deg);
+          transform: translate(-50%, 50%) rotate(-45deg);
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background-color: var(--color-primary-dark);
+  transition: top;
+  padding-top: .65rem;
+  text-align: center;
+  top: -300vw;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.nav-open {
+  top: 0;
+  opacity: 1;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .25s;
+}
+
+
+.hover-fade img {
+  opacity: .5;
+}
+
+.footer {
+  background-color: var(--color-secondary);
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a.no-under:hover,
+.footer a.no-under:active,
+.footer a.no-under:focus {
+  color: var(--color-primary)
+}
+
+
+
+@media only screen and (min-width: 38em) {
+
+  .nav-tog {
+    display: none;
+  }
+
+
+.nav {
+    position: static;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    border-bottom: none;
+    vertical-align: middle;
+    background-color: transparent;
+    padding-top: 0;
+    opacity: 1;
+    flex-direction: row;
+
+  }
+
+  nav .list-group li {
+    display: inline-block;
+  }
+
+  nav a {
+    color: var(--color-secondary);
+    opacity: .8;
+  }
+
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    color: var(--color-primary);
+    text-decoration: underline;
+    opacity: 1;
+    animation: text-decoration .3s;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+}
