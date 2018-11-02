@@ -28,8 +28,14 @@ h1 {
 }
 
 h2 {
+  color: var(--color-primary-light);
+}
+
+
+h3 {
   color: var(--color-primary);
 }
+
 
 #down-arrow {
   animation: arrow 1.5s ease-in-out infinite alternate;
@@ -110,6 +116,15 @@ h2 {
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/city.jpg") bottom center / cover no-repeat fixed;
+  text-align: center;
+}
+
+
+.xfactor-banner {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
+    url("../images/xfactor-banner.jpg") bottom center / cover no-repeat fixed;
   text-align: center;
 }
 
