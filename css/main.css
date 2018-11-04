@@ -120,6 +120,9 @@ h3 {
 }
 
 
+
+
+
 .xfactor-banner {
   height: 100vh;
   background:
@@ -139,16 +142,14 @@ h3 {
 #about-me {
   height: 100vh;
   position: relative;
-  background:
-  url("../images/about-me.jpg") bottom right / cover no-repeat;
-    z-index: 0;
+  z-index: 0;
 }
 
 #case-1 {
   height: 100vh;
   position: relative;
   background:
-    url("../images/case-1.jpeg") center / cover no-repeat fixed;
+    url("../images/xfactor-banner.jpg") center / cover no-repeat fixed;
     z-index: 0;
 }
 
@@ -171,6 +172,7 @@ h3 {
 #case-1 .pro {
 
 }
+
 
 .project .pro{
   background: linear-gradient(rgba(25,19,3,0), rgba(25,19,3,1));
@@ -340,6 +342,9 @@ nav a {
   color: var(--color-primary)
 }
 
+#logo {
+height: 80%;
+}
 
 
 @media only screen and (min-width: 38em) {
@@ -347,6 +352,7 @@ nav a {
   .nav-tog {
     display: none;
   }
+
 
 
 .nav {
@@ -368,16 +374,13 @@ nav a {
   }
 
   nav a {
-    color: var(--color-secondary);
-    opacity: .8;
+    color: var(--color-primary);
   }
 
   nav a:hover,
   nav a:focus,
   nav a:active {
-    color: var(--color-primary);
     text-decoration: underline;
-    opacity: 1;
     animation: text-decoration .3s;
 
   }
