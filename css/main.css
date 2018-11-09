@@ -4,7 +4,7 @@
   --color-primary-dark: #000;
   --color-secondary: #d6d7d7;
   --color-secondary-dark: #bababa;
-  --color-secondary-light: #fafafa;
+  --color-secondary-light: #f9f9f9;
   --font-primary: "Ubuntu", sans-serif;
   --font-secondary: "Playfair Display", serif;
   --shadow-primary: -1px 3px 8px rgba(0, 0, 0, .15);
@@ -17,6 +17,9 @@ html {
   background-color: var(--color-secondary-light);
 }
 
+.img-flex-80 {
+  width: 65%;
+}
 
 li a :hover {
 }
@@ -187,8 +190,13 @@ h3 {
   font-family: var(--font-secondary);
   display: inline-block;
   text-align: right;
-  color: var(--color-secondary-dark);
+  color: var(--color-primary);
   text-decoration: none;
+}
+
+
+.social:hover {
+  opacity: .5;
 }
 
 a {
@@ -355,6 +363,8 @@ height: 80%;
 
 
 
+
+
 .nav {
     position: static;
     width: auto;
@@ -362,8 +372,9 @@ height: 80%;
     box-shadow: none;
     border-bottom: none;
     vertical-align: middle;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, .1);
     padding-top: 0;
+    padding-bottom: 1em;
     opacity: 1;
     flex-direction: row;
 
