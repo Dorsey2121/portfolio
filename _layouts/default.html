@@ -35,19 +35,19 @@
     <nav class="nav grid nav-closed pad-t" role="navigation">
 
       <ul class="unit xs-1 m-1-2 list-group push-0 smooth-scroll">
-        <li><a id="nav" class="island block text-upper" href="{{site.baseurl}}/">Home</a></li>
-        <li><a id="nav" class="island block text-upper" href="{{site.baseurl}}/#about-me">About</a></li>
+        <li><a id="nav" class="mega bold island block text-upper" href="{{site.baseurl}}/">Home</a></li>
+        <li><a id="nav" class="mega bold island block text-upper" href="{{site.baseurl}}/#about-me">About</a></li>
       </ul>
 
       <ul class="unit xs-1 m-1-2 list-group push-0 right smooth-scroll">
-        <li><a id="nav" class="smooth-scroll island block text-upper" href="{{site.baseurl}}/#case-1">work</a></li>
-        <li><a id="nav" class="island block text-upper" href="mailto:dors0019@algonquinlive.com">contact</a></li>
+        <li><a id="nav" class="mega bold smooth-scroll island block text-upper" href="{{site.baseurl}}/#case-1">work</a></li>
+        <li><a id="nav" class="mega bold island block text-upper" href="mailto:dors0019@algonquinlive.com">contact</a></li>
       </ul>
     </nav>
 
-    <div class="absolute block pin-ct">
-      <a href="index.html">
-        <i class="icon i-128">
+    <div class="logo absolute block pin-ct">
+      <a href="{{site.baseurl}}/">
+        <i class="icon i-96">
           <img id="logo" src="{{site.baseurl}}/images/svg/logo.svg" alt="">
         </i>
       </a>
@@ -58,15 +58,71 @@
     {{content}}
   </main>
 
-  <footer>
+  <footer class="pad-t pad-b none-1">
+    <div class="grid wrapper gutter">
+      <div class="unit [ s-0 m-1-2 ]">
+        <div class="media">
+          <div class="media-img">
+            <a class="social" href="#">
+              <i class="icon i-64">
+                <img class="" src="{{site.baseurl}}/images/svg/logo.svg" alt="">
+              </i>
+            </a>
+
+          </div>
+          <div class="media-body text-left">
+            <small class="micro">© Paul Dorsey | 2018</small>
+          </div>
+        </div>
+      </div>
+      <div class="unit [ s-1 m-0 ] push">
+        <div class="media">
+          <div class="media-img">
+            <i class="icon i-64">
+              <img class="" src="{{site.baseurl}}/images/svg/logo.svg" alt="">
+            </i>
+          </div>
+          <div class="media-body text-left">
+            <small class="micro">© Paul Dorsey | 2018</small>
+          </div>
+        </div>
+      </div>
+      <div class="unit [ m-1-2 ] text-center">
+        <ul class="list-group-inline push-1-2 text-right">
+          <li class="island-1-4">
+            <a class="social" href="#">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/mail.svg" alt="">
+              </i>
+            </a>
+          </li>
+          <li class="island-1-4">
+            <a class="social" href="#">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/instagram.svg" alt="">
+              </i>
+            </a>
+          </li>
+          <li class="island-1-4">
+            <a class="social" href="#">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/vimeo.svg" alt="">
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="none">
     <div class="text-center">
-      <div class="">
+      <div class="push pad-t">
         <a class="social" href="index.html">
-          <i class=" icon i-96">
-            <img src="{{site.baseurl}}/images/logo-black.svg" alt="">
+          <i class=" icon i-64">
+            <img src="{{site.baseurl}}/images/svg/logo.svg" alt="">
           </i>
         </a>
-
       </div>
 
       <div class="">

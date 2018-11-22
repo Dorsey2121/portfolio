@@ -16,14 +16,466 @@ html {
   font-family: var(--font-primary);
   color: var(--color-primary-dark);
   background-color: var(--color-secondary-light);
+
 }
 
+.none {
+  display: block;
+}
+
+.none-1 {
+  display: none;
+}
+
+.banner-h1-box {
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+  border: 3px solid #fff;
+  padding: .2em .6em;
+}
+
+
+
+.slider-holder
+        {
+            width: 350px;
+            height: 525px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .image-holder {
+            width: 2100px;
+            height: 525px;
+            clear: both;
+            position: relative;
+
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+          height: 453px;
+          width: 350px;
+        }
+
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -350px;
+        }
+
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -700px;
+        }
+         #slider-image-4:target ~ .image-holder
+        {
+            left: -1050px;
+        }
+          #slider-image-5:target ~ .image-holder
+        {
+            left: -1400px;
+        }
+         #slider-image-6:target ~ .image-holder
+        {
+            left: -1750px;
+        }
+.button-holder
+        {
+            position: relative;
+            top: -50px;
+        }
+
+        .slider-change
+        {
+            display: inline-block;
+          height: 50px;
+          width: 50px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+
+        .slider-change-image
+        {
+
+          height: 50px;
+          width: 50px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+.slider-holder-pst
+        {
+            width: 350px;
+            height: 481px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .image-holder-pst
+        {
+            width: 1050px;
+            height: 481px;
+            clear: both;
+            position: relative;
+
+            -webkit-transition: left 1s;
+            -moz-transition: left 1s;
+            -o-transition: left 1s;
+            transition: left 1s;
+        }
+
+        .slider-image-pst
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+          height: 481;
+          width: 350px;
+        }
+
+        #slider-image-pst-1:target ~ .image-holder-pst
+        {
+            left: 0px;
+        }
+
+        #slider-image-pst-2:target ~ .image-holder-pst
+        {
+            left: -350px;
+        }
+
+        #slider-image-pst-3:target ~ .image-holder-pst
+        {
+            left: -700px;
+        }
+         #slider-image-pst-4:target ~ .image-holder-pst
+        {
+            left: -1050px;
+        }
+
+.button-holder
+        {
+            position: relative;
+            top: -40px;
+        }
+
+        .slider-change
+        {
+            display: inline-block;
+          height: 40px;
+          width: 40px;
+            border-radius: 5px;
+            background-color: var(--color-secondary);
+        }
+
+        .slider-change-image
+        {
+
+          height: 40px;
+          width: 40px;
+        }
+
+
+
+        .slider-holder-golf
+                {
+                    width: 350px;
+                    height: 547px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 0px;
+                    text-align: center;
+                    overflow: hidden;
+                }
+
+                .image-holder-golf
+                {
+                    width: 2800px;
+                    height: 547px;
+                    clear: both;
+                    position: relative;
+
+                    -webkit-transition: left 1s;
+                    -moz-transition: left 1s;
+                    -o-transition: left 1s;
+                    transition: left 1s;
+                }
+
+                .slider-image-golf
+                {
+                    float: left;
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                  height: 547;
+                  width: 350px;
+                }
+
+                #slider-image-golf-1:target ~ .image-holder-golf
+                {
+                    left: 0px;
+                }
+
+                #slider-image-golf-2:target ~ .image-holder-golf
+                {
+                    left: -350px;
+                }
+
+                #slider-image-golf-3:target ~ .image-holder-golf
+                {
+                    left: -700px;
+                }
+                 #slider-image-golf-4:target ~ .image-holder-golf
+                {
+                    left: -1050px;
+                }
+                  #slider-image-golf-5:target ~ .image-holder-golf
+                {
+                    left: -1400px;
+                }
+                 #slider-image-golf-6:target ~ .image-holder-golf
+                {
+                    left: -1750px;
+                }
+                #slider-image-golf-7:target ~ .image-holder-golf
+               {
+                   left: -2100px;
+               }
+               #slider-image-golf-8:target ~ .image-holder-golf
+              {
+                  left: -2450px;
+              }
+
+
+
+
+
+
+/* Picture atomatic slider */
+
+.container {
+    width: 350px;
+    overflow: hidden;
+}
+.img-swipe-ul {
+    width: 10000px;
+    padding: 0;
+    -webkit-animation: slide 25s;
+    -moz-animation: slide 25s;
+    -ms-animation: slide 25s;
+    -o-animation: slide 25s;
+    animation: slide 25s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+.img-swipe-li {
+    width: 350px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+
+.img-swipe-ul {
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    /**/
+}
+.img-swipe-ul:hover {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes slide {
+    10% {
+        left: 0;
+    }
+    14%,20% {
+        left: -350px;
+    }
+    24%,30% {
+        left: -700px;
+    }
+    34%,40% {
+        left: -1050px;
+    }
+    44%,50% {
+        left: -1400px;
+    }
+    54%,60% {
+        left: -1750px;
+    }
+    64%,70% {
+        left: -2100px;
+    }
+    74%,80% {
+        left: 0;
+    }
+}
+@-moz-keyframes slide {
+    10% {
+        left: 0;
+    }
+    14%,20% {
+        left: -350px;
+    }
+    24%,30% {
+        left: -700px;
+    }
+    34%,40% {
+        left: -1050px;
+    }
+    44%,50% {
+        left: -1400px;
+    }
+    54%,60% {
+        left: -1750px;
+    }
+    64%,70% {
+        left: -2100px;
+    }
+    74%,80% {
+        left: 0;
+    }
+}
+@-o-keyframes slide {
+    10% {
+        left: 0;
+    }
+    14%,20% {
+        left: -350px;
+    }
+    24%,30% {
+        left: -700px;
+    }
+    34%,40% {
+        left: -1050px;
+    }
+    44%,50% {
+        left: -1400px;
+    }
+    54%,60% {
+        left: -1750px;
+    }
+    64%,70% {
+        left: -2100px;
+    }
+    74%,80% {
+        left: 0;
+    }
+}
+
+@keyframes slide {
+    10% {
+        left: 0;
+    }
+    14%,20% {
+        left: -350px;
+    }
+    24%,30% {
+        left: -700px;
+    }
+    34%,40% {
+        left: -1050px;
+    }
+    44%,50% {
+        left: -1400px;
+    }
+    54%,60% {
+        left: -1750px;
+    }
+    64%,70% {
+        left: -2100px;
+    }
+    74%,80% {
+        left: 0;
+    }
+}
+
+/* Picture atomatic slider */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+  position: absolute;
+  top: 1.4em;
+}
+
+
+.logo:hover {
+  opacity: .8;
+}
+
+small {
+  color: var(--color-primary);
+}
 
 .scale {
   width: 50%;
 }
 
-.pst-logo-section {
+.coloured-section {
   background-color: var(--color-secondary-medium);
 
 }
@@ -34,9 +486,7 @@ html {
   width: 65%;
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5)
 }
-.card {
 
-}
 
 input {
   display: none;
@@ -69,7 +519,21 @@ input:checked ~ .radio {
   opacity: 1;
 }
 
+input:checked ~ .radio {
+	color: #FFF;
+	background-color: #000;
+  opacity: 1;
+}
+
 .img-box {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-box-2 {
   width: 300px;
   height: 300px;
   margin: 20px auto;
@@ -82,7 +546,7 @@ input:checked ~ .radio {
 
 
 
-#one, #two, #three, #four {
+#one, #two, #three, #four, #five, #six, #seven, #eight {
   opacity: 0;
   -webkit-transform: translate(0,0);
   transition-property: -webkit-transform, opacity;
@@ -98,6 +562,17 @@ input:checked ~ .radio {
   -webkit-transform: translate(0,0);
 }
 
+
+
+#img-5:checked ~ .img-box-2 #five,
+#img-6:checked ~ .img-box-2 #six,
+#img-7:checked ~ .img-box-2 #seven,
+#img-8:checked ~ .img-box-2 #eight {
+  opacity: 1;
+  -webkit-transform: translate(0,0);
+}
+
+
 #img-1:checked ~ .nav-radio label #dot-1.radio,
 #img-2:checked ~ .nav-radio label #dot-2.radio,
 #img-3:checked ~ .nav-radio label #dot-3.radio,
@@ -107,6 +582,30 @@ input:checked ~ .radio {
 }
 
 
+#img-5:checked ~ .nav-radio-2 label #dot-5.radio,
+#img-6:checked ~ .nav-radio-2 label #dot-6.radio,
+#img-7:checked ~ .nav-radio-2 label #dot-7.radio,
+#img-8:checked ~ .nav-radio-2 label #dot-8.radio {
+  color: #FFF;
+  background-color: #000;
+}
+
+
+
+
+
+.media {
+  overflow: hidden;
+}
+
+.media-img {
+  float: left;
+  margin: 0 25px 0 0;
+}
+
+.media-body {
+  overflow: hidden;
+}
 
 
 
@@ -115,11 +614,9 @@ input:checked ~ .radio {
 
 
 
-
-
-
-
-
+.img-flex-90 {
+  width: 80%;
+}
 
 
 
@@ -127,8 +624,7 @@ input:checked ~ .radio {
   width: 65%;
 }
 
-li a :hover {
-}
+
 
 h1 {
   font-family: var(--font-primary);
@@ -224,7 +720,7 @@ h3 {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/city.jpg") bottom center / cover no-repeat fixed;
+    url("../images/city.jpg") 25% / cover no-repeat fixed;
   text-align: center;
 }
 
@@ -236,8 +732,31 @@ h3 {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/xfactor-banner.jpg") bottom center / cover no-repeat fixed;
-  text-align: center;
+    url("../images/xfactor-banner.jpg") 90% / cover no-repeat fixed;
+  text-align: left;
+}
+
+.pst-banner {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
+    url("../images/pst-banner.jpg") 76% / cover no-repeat fixed;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+.campaign-banner {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
+    url("../images/campaign-banner.jpg") right / cover no-repeat fixed;
+    text-align: left;
 }
 
 .banner-content {
@@ -248,17 +767,36 @@ h3 {
   width: 100%;
 }
 
+
+
+.banner-content-case {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 6em;
+  padding-bottom: 17em;
+  display: block;
+}
+
+
+
+
 #about-me {
   height: 100vh;
   position: relative;
   z-index: 0;
 }
 
+
+
+
+
 #case-1 {
   height: 100vh;
   position: relative;
   background:
-    url("../images/xfactor-banner.jpg") center / cover no-repeat fixed;
+    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    url("../images/xfactor-banner.jpg") 90% / cover no-repeat fixed;
     z-index: 0;
 }
 
@@ -266,7 +804,8 @@ h3 {
   height: 100vh;
   position: relative;
   background:
-    url("../images/case-2.jpeg") center / cover no-repeat fixed;
+    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    url("../images/pst-banner.jpg") 76% / cover no-repeat fixed;
     z-index: 0;
 }
 
@@ -274,7 +813,8 @@ h3 {
   height: 100vh;
   position: relative;
   background:
-    url("../images/case-3.jpeg") center / cover no-repeat fixed;
+    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    url("../images/campaign-banner.jpg") right / cover no-repeat fixed;
     z-index: 0;
 }
 
@@ -288,21 +828,22 @@ h3 {
   width: 100%;
   position: absolute;
   bottom: 0;
-  padding-bottom: 6em;
-  display: block;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 14em;
 }
 
 .tags {
   font-family: var(--font-secondary);
   display: inline-block;
-  text-align: right;
   color: var(--color-primary);
   text-decoration: none;
 }
 
 
 .social:hover {
-  opacity: .5;
+  opacity: .8;
 }
 
 a {
@@ -311,11 +852,16 @@ a {
   transition: color .25s;
 }
 
-a:hover,
-a:active,
-a:focus {
-  text-decoration: underline;
-}
+
+
+
+
+
+
+
+
+
+
 
 .no-under,
 .no-under:hover,
@@ -408,6 +954,14 @@ a.no-under:focus {
           transform: translate(-50%, 50%) rotate(-45deg);
 }
 
+
+.masthead {
+  background-color: var(--color-primary-dark);
+  padding-bottom: 2.8em;
+}
+
+
+
 .nav {
   position: fixed;
   width: 100%;
@@ -415,7 +969,7 @@ a.no-under:focus {
   top: 0;
   background-color: var(--color-primary-dark);
   transition: top;
-  padding-top: .65rem;
+  padding-top: 6em;
   text-align: center;
   top: -300vw;
   opacity: 0;
@@ -441,8 +995,8 @@ nav a {
   opacity: .5;
 }
 
-.footer {
-  background-color: var(--color-secondary);
+footer {
+  background-color: var(--color-primary-light);
   text-align: center;
 }
 
@@ -461,12 +1015,28 @@ height: 80%;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 38em) {
 
   .nav-tog {
     display: none;
   }
 
+  .masthead {
+    background-color: transparent;
+  }
 
 
 
@@ -483,11 +1053,11 @@ height: 80%;
     padding-bottom: 1em;
     opacity: 1;
     flex-direction: row;
-
   }
 
   nav .list-group li {
     display: inline-block;
+    padding-top: 1em;
   }
 
   nav a {
@@ -502,10 +1072,590 @@ height: 80%;
 
   }
 
+  .none {
+    display: none;
+  }
+
+  .none-1 {
+    display: block;
+  }
+
 
 }
 
 @media only screen and (min-width: 60em) {
+
+
+
+  .banner-content-case {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 10em;
+    padding-bottom: 10em;
+    display: block;
+  }
+
+
+  .project .pro {
+
+    display: block;
+    padding-left: 15em;
+    padding-bottom: 6em;
+
+  }
+
+  .project .pro .tags {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: right;
+    width: 12em;
+  }
+
+
+  /* Picture atomatic slider */
+
+  .container {
+      width: 400px;
+      overflow: hidden;
+  }
+  .img-swipe-ul {
+      width: 10000px;
+      padding: 0;
+      -webkit-animation: slide 25s;
+      -moz-animation: slide 25s;
+      -ms-animation: slide 25s;
+      -o-animation: slide 25s;
+      animation: slide 25s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-timing-function: ease-in-out;
+      -ms-animation-timing-function: ease-in-out;
+      -o-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      position: relative;
+  }
+
+  .img-swipe-li {
+      width: 400px;
+      float: left;
+      list-style: none;
+      position: relative;
+  }
+
+
+  .img-swipe-ul {
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+      -o-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -moz-animation-timing-function: ease-in-out;
+      -ms-animation-timing-function: ease-in-out;
+      -o-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      /**/
+  }
+  .img-swipe-ul:hover {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -ms-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+  }
+
+  @-webkit-keyframes slide {
+      10% {
+          left: 0;
+      }
+      14%,20% {
+          left: -400px;
+      }
+      24%,30% {
+          left: -800px;
+      }
+      34%,40% {
+          left: -1200px;
+      }
+      44%,50% {
+          left: -1600px;
+      }
+      54%,60% {
+          left: -2000px;
+      }
+      64%,70% {
+          left: -2400px;
+      }
+      74%,80% {
+          left: 0;
+      }
+  }
+  @-moz-keyframes slide {
+      10% {
+          left: 0;
+      }
+      14%,20% {
+          left: -400px;
+      }
+      24%,30% {
+          left: -800px;
+      }
+      34%,40% {
+          left: -1200px;
+      }
+      44%,50% {
+          left: -1600px;
+      }
+      54%,60% {
+          left: -2000px;
+      }
+      64%,70% {
+          left: -2400px;
+      }
+      74%,80% {
+          left: 0;
+      }
+  }
+  @-o-keyframes slide {
+      10% {
+          left: 0;
+      }
+      14%,20% {
+          left: -400px;
+      }
+      24%,30% {
+          left: -800px;
+      }
+      34%,40% {
+          left: -1200px;
+      }
+      44%,50% {
+          left: -1600px;
+      }
+      54%,60% {
+          left: -2000px;
+      }
+      64%,70% {
+          left: -2400px;
+      }
+      74%,80% {
+          left: 0;
+      }
+  }
+
+  @keyframes slide {
+      10% {
+          left: 0;
+      }
+      14%,20% {
+          left: -400px;
+      }
+      24%,30% {
+          left: -800px;
+      }
+      34%,40% {
+          left: -1200px;
+      }
+      44%,50% {
+          left: -1600px;
+      }
+      54%,60% {
+          left: -2000px;
+      }
+      64%,70% {
+          left: -2400px;
+      }
+      74%,80% {
+          left: 0;
+      }
+  }
+
+  /* Picture atomatic slider */
+
+
+
+
+
+
+
+
+
+
+
+
+  .slides {
+      padding: 0;
+      width: 400px;
+      height: 435px;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+  }
+
+  .slides * {
+      user-select: none;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+  }
+
+  .slides input { display: none; }
+
+  .slide-container { display: block; }
+
+  .slide {
+      top: 0;
+      opacity: 0;
+      width: 400px;
+      height: 400px;
+      display: block;
+      position: absolute;
+
+      transform: scale(0);
+
+      transition: all .7s ease-in-out;
+  }
+
+  .slide img {
+      width: 100%;
+      height: 100%;
+  }
+
+  input:checked + .slide-container  .slide {
+      opacity: 1;
+
+      transform: scale(1);
+
+      transition: opacity 1s ease-in-out;
+  }
+
+  input:checked + .slide-container { display: block; }
+
+  .nav-dots {
+  	width: 100%;
+  	bottom: 9px;
+  	height: 11px;
+  	display: block;
+  	position: absolute;
+  	text-align: center;
+  }
+
+  .nav-dots .nav-dot {
+  	top: -5px;
+  	width: 15px;
+  	height: 15px;
+  	margin: 0 4px;
+  	position: relative;
+  	border-radius: 100%;
+  	display: inline-block;
+  	background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .nav-dots .nav-dot:hover {
+  	cursor: pointer;
+  	background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  input#img-1:checked ~ .nav-dots label#img-dot-1,
+  input#img-2:checked ~ .nav-dots label#img-dot-2,
+  input#img-3:checked ~ .nav-dots label#img-dot-3,
+  input#img-4:checked ~ .nav-dots label#img-dot-4,
+  input#img-5:checked ~ .nav-dots label#img-dot-5,
+  input#img-6:checked ~ .nav-dots label#img-dot-6 {
+  	background: rgba(0, 0, 0, 0.8);
+  }
+
+
+
+
+          .slider-holder
+                  {
+                      width: 400px;
+                      height: 600px;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-top: 0px;
+                      text-align: center;
+                      overflow: hidden;
+                  }
+
+                  .image-holder
+                  {
+                      width: 2400px;
+                      height: 600px;
+                      clear: both;
+                      position: relative;
+
+                      -webkit-transition: left 2s;
+                      -moz-transition: left 2s;
+                      -o-transition: left 2s;
+                      transition: left 2s;
+                  }
+
+                  .slider-image
+                  {
+                      float: left;
+                      margin: 0px;
+                      padding: 0px;
+                      position: relative;
+                    height: 518px;
+                    width: 400px;
+                  }
+
+                  #slider-image-1:target ~ .image-holder
+                  {
+                      left: 0px;
+                  }
+
+                  #slider-image-2:target ~ .image-holder
+                  {
+                      left: -400px;
+                  }
+
+                  #slider-image-3:target ~ .image-holder
+                  {
+                      left: -800px;
+                  }
+                   #slider-image-4:target ~ .image-holder
+                  {
+                      left: -1200px;
+                  }
+                    #slider-image-5:target ~ .image-holder
+                  {
+                      left: -1600px;
+                  }
+                   #slider-image-6:target ~ .image-holder
+                  {
+                      left: -2000px;
+                  }
+          .button-holder
+                  {
+                      position: relative;
+                      top: -50px;
+                  }
+
+                  .slider-change
+                  {
+                      display: inline-block;
+                    height: 50px;
+                    width: 50px;
+                      border-radius: 5px;
+                      background-color: brown;
+                  }
+
+                  .slider-change-image
+                  {
+
+                    height: 50px;
+                    width: 50px;
+                  }
+
+
+
+
+
+
+                                    .slider-holder-golf
+                                            {
+                                                width: 400px;
+                                                height: 625px;
+                                                margin-left: auto;
+                                                margin-right: auto;
+                                                margin-top: 0px;
+                                                text-align: center;
+                                                overflow: hidden;
+                                            }
+
+                                            .image-holder-golf
+                                            {
+                                                width: 3200px;
+                                                height: 625px;
+                                                clear: both;
+                                                position: relative;
+
+                                                -webkit-transition: left 1s;
+                                                -moz-transition: left 1s;
+                                                -o-transition: left 1s;
+                                                transition: left 1s;
+                                            }
+
+                                            .slider-image-golf
+                                            {
+                                                float: left;
+                                                margin: 0px;
+                                                padding: 0px;
+                                                position: relative;
+                                              height: 580;
+                                              width: 400px;
+                                            }
+
+                                            #slider-image-golf-1:target ~ .image-holder-golf
+                                            {
+                                                left: 0px;
+                                            }
+
+                                            #slider-image-golf-2:target ~ .image-holder-golf
+                                            {
+                                                left: -400px;
+                                            }
+
+                                            #slider-image-golf-3:target ~ .image-holder-golf
+                                            {
+                                                left: -800px;
+                                            }
+                                             #slider-image-golf-4:target ~ .image-holder-golf
+                                            {
+                                                left: -1200px;
+                                            }
+                                              #slider-image-golf-5:target ~ .image-holder-golf
+                                            {
+                                                left: -1600px;
+                                            }
+                                             #slider-image-golf-6:target ~ .image-holder-golf
+                                            {
+                                                left: -2000px;
+                                            }
+                                            #slider-image-golf-7:target ~ .image-holder-golf
+                                           {
+                                               left: -2400px;
+                                           }
+                                           #slider-image-golf-8:target ~ .image-holder-golf
+                                          {
+                                              left: -2800px;
+                                          }
+                                    .button-holder
+                                            {
+                                                position: relative;
+                                                top: -40px;
+                                            }
+
+                                            .slider-change
+                                            {
+                                                display: inline-block;
+                                              height: 40px;
+                                              width: 40px;
+                                                border-radius: 5px;
+                                                background-color: var(--color-secondary);
+                                            }
+
+                                            .slider-change-image
+                                            {
+
+                                              height: 40px;
+                                              width: 40px;
+                                            }
+
+
+
+
+
+
+
+
+
+
+                          .slider-holder-pst
+                                  {
+                                      width: 400px;
+                                      height: 550px;
+                                      margin-left: auto;
+                                      margin-right: auto;
+                                      margin-top: 0px;
+                                      text-align: center;
+                                      overflow: hidden;
+                                  }
+
+                                  .image-holder-pst
+                                  {
+                                      width: 3200px;
+                                      height: 550px;
+                                      clear: both;
+                                      position: relative;
+
+                                      -webkit-transition: left 1s;
+                                      -moz-transition: left 1s;
+                                      -o-transition: left 1s;
+                                      transition: left 1s;
+                                  }
+
+                                  .slider-image-pst
+                                  {
+                                      float: left;
+                                      margin: 0px;
+                                      padding: 0px;
+                                      position: relative;
+                                    height: 500;
+                                    width: 400px;
+                                  }
+
+                                  #slider-image-pst-1:target ~ .image-holder-pst
+                                  {
+                                      left: 0px;
+                                  }
+
+                                  #slider-image-pst-2:target ~ .image-holder-pst
+                                  {
+                                      left: -400px;
+                                  }
+
+                                  #slider-image-pst-3:target ~ .image-holder-pst
+                                  {
+                                      left: -800px;
+                                  }
+                                   #slider-image-pst-4:target ~ .image-holder-pst
+                                  {
+                                      left: -1200px;
+                                  }
+                                    #slider-image-pst-5:target ~ .image-holder-pst
+                                  {
+                                      left: -1600px;
+                                  }
+                                   #slider-image-pst-6:target ~ .image-holder-pst
+                                  {
+                                      left: -2000px;
+                                  }
+                                  #slider-image-pst-7:target ~ .image-holder-pst
+                                 {
+                                     left: -2400px;
+                                 }
+                                 #slider-image-pst-8:target ~ .image-holder-pst
+                                {
+                                    left: -2800px;
+                                }
+                          .button-holder
+                                  {
+                                      position: relative;
+                                      top: -40px;
+                                  }
+
+                                  .slider-change
+                                  {
+                                      display: inline-block;
+                                    height: 40px;
+                                    width: 40px;
+                                      border-radius: 5px;
+                                      background-color: var(--color-secondary);
+                                  }
+
+                                  .slider-change-image
+                                  {
+
+                                    height: 40px;
+                                    width: 40px;
+                                  }
+
+
+
+
+
 
 
 
