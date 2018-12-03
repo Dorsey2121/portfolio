@@ -37,12 +37,10 @@ html {
   padding: .2em .6em;
 }
 
-
-
 .slider-holder
         {
-            width: 350px;
-            height: 525px;
+            width: 300px;
+            height: 450px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 0px;
@@ -51,8 +49,8 @@ html {
         }
 
         .image-holder {
-            width: 2100px;
-            height: 525px;
+            width: 1800px;
+            height: 450px;
             clear: both;
             position: relative;
 
@@ -68,8 +66,8 @@ html {
             margin: 0px;
             padding: 0px;
             position: relative;
-          height: 453px;
-          width: 350px;
+          height: 388px;
+          width: 300px;
         }
 
         #slider-image-1:target ~ .image-holder
@@ -79,24 +77,24 @@ html {
 
         #slider-image-2:target ~ .image-holder
         {
-            left: -350px;
+            left: -300px;
         }
 
         #slider-image-3:target ~ .image-holder
         {
-            left: -700px;
+            left: -600px;
         }
          #slider-image-4:target ~ .image-holder
         {
-            left: -1050px;
+            left: -900px;
         }
           #slider-image-5:target ~ .image-holder
         {
-            left: -1400px;
+            left: -1200px;
         }
          #slider-image-6:target ~ .image-holder
         {
-            left: -1750px;
+            left: -1500px;
         }
 .button-holder
         {
@@ -135,8 +133,8 @@ html {
 
 .slider-holder-pst
         {
-            width: 350px;
-            height: 481px;
+            width: 300px;
+            height: 450px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 0px;
@@ -146,8 +144,8 @@ html {
 
         .image-holder-pst
         {
-            width: 1050px;
-            height: 481px;
+            width: 900px;
+            height: 450px;
             clear: both;
             position: relative;
 
@@ -163,8 +161,8 @@ html {
             margin: 0px;
             padding: 0px;
             position: relative;
-          height: 481;
-          width: 350px;
+          height: 388;
+          width: 300px;
         }
 
         #slider-image-pst-1:target ~ .image-holder-pst
@@ -174,16 +172,16 @@ html {
 
         #slider-image-pst-2:target ~ .image-holder-pst
         {
-            left: -350px;
+            left: -300px;
         }
 
         #slider-image-pst-3:target ~ .image-holder-pst
         {
-            left: -700px;
+            left: -600px;
         }
          #slider-image-pst-4:target ~ .image-holder-pst
         {
-            left: -1050px;
+            left: -900px;
         }
 
 .button-holder
@@ -212,8 +210,8 @@ html {
 
         .slider-holder-golf
                 {
-                    width: 350px;
-                    height: 547px;
+                    width: 300px;
+                    height: 469px;
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 0px;
@@ -223,8 +221,8 @@ html {
 
                 .image-holder-golf
                 {
-                    width: 2800px;
-                    height: 547px;
+                    width: 2400px;
+                    height: 469px;
                     clear: both;
                     position: relative;
 
@@ -240,8 +238,8 @@ html {
                     margin: 0px;
                     padding: 0px;
                     position: relative;
-                  height: 547;
-                  width: 350px;
+                  height: 469;
+                  width: 300px;
                 }
 
                 #slider-image-golf-1:target ~ .image-holder-golf
@@ -251,32 +249,32 @@ html {
 
                 #slider-image-golf-2:target ~ .image-holder-golf
                 {
-                    left: -350px;
+                    left: -300px;
                 }
 
                 #slider-image-golf-3:target ~ .image-holder-golf
                 {
-                    left: -700px;
+                    left: -600px;
                 }
                  #slider-image-golf-4:target ~ .image-holder-golf
                 {
-                    left: -1050px;
+                    left: -900px;
                 }
                   #slider-image-golf-5:target ~ .image-holder-golf
                 {
-                    left: -1400px;
+                    left: -1200px;
                 }
                  #slider-image-golf-6:target ~ .image-holder-golf
                 {
-                    left: -1750px;
+                    left: -1500px;
                 }
                 #slider-image-golf-7:target ~ .image-holder-golf
                {
-                   left: -2100px;
+                   left: -1800px;
                }
                #slider-image-golf-8:target ~ .image-holder-golf
               {
-                  left: -2450px;
+                  left: -2100px;
               }
 
 
@@ -287,7 +285,7 @@ html {
 /* Picture atomatic slider */
 
 .container {
-    width: 350px;
+    width: 300px;
     overflow: hidden;
 }
 .img-swipe-ul {
@@ -312,7 +310,7 @@ html {
 }
 
 .img-swipe-li {
-    width: 350px;
+    width: 300px;
     float: left;
     list-style: none;
     position: relative;
@@ -345,22 +343,22 @@ html {
         left: 0;
     }
     14%,20% {
-        left: -350px;
+        left: -300px;
     }
     24%,30% {
-        left: -700px;
+        left: -600px;
     }
     34%,40% {
-        left: -1050px;
+        left: -900px;
     }
     44%,50% {
-        left: -1400px;
+        left: -1200px;
     }
     54%,60% {
-        left: -1750px;
+        left: -1500px;
     }
     64%,70% {
-        left: -2100px;
+        left: -1800px;
     }
     74%,80% {
         left: 0;
@@ -371,22 +369,22 @@ html {
         left: 0;
     }
     14%,20% {
-        left: -350px;
+        left: -300px;
     }
     24%,30% {
-        left: -700px;
+        left: -600px;
     }
     34%,40% {
-        left: -1050px;
+        left: -900px;
     }
     44%,50% {
-        left: -1400px;
+        left: -1200px;
     }
     54%,60% {
-        left: -1750px;
+        left: -1500px;
     }
     64%,70% {
-        left: -2100px;
+        left: -1800px;
     }
     74%,80% {
         left: 0;
@@ -397,22 +395,22 @@ html {
         left: 0;
     }
     14%,20% {
-        left: -350px;
+        left: -300px;
     }
     24%,30% {
-        left: -700px;
+        left: -600px;
     }
     34%,40% {
-        left: -1050px;
+        left: -900px;
     }
     44%,50% {
-        left: -1400px;
+        left: -1200px;
     }
     54%,60% {
-        left: -1750px;
+        left: -1500px;
     }
     64%,70% {
-        left: -2100px;
+        left: -1800px;
     }
     74%,80% {
         left: 0;
@@ -424,22 +422,22 @@ html {
         left: 0;
     }
     14%,20% {
-        left: -350px;
+        left: -300px;
     }
     24%,30% {
-        left: -700px;
+        left: -600px;
     }
     34%,40% {
-        left: -1050px;
+        left: -900px;
     }
     44%,50% {
-        left: -1400px;
+        left: -1200px;
     }
     54%,60% {
-        left: -1750px;
+        left: -1500px;
     }
     64%,70% {
-        left: -2100px;
+        left: -1800px;
     }
     74%,80% {
         left: 0;

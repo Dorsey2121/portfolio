@@ -1,3 +1,8 @@
+var aboutme= $("#about-me");
+
+if(aboutme.length){
+
+
 $(document).ready(function(){
   $(".smooth-scroll a").on('click', function(event) {
     if (this.hash !== "") {
@@ -11,6 +16,7 @@ $(document).ready(function(){
     }
   });
 });
+}
 
 $('.nav-label').on('click', function (e) {
   e.preventDefault();
