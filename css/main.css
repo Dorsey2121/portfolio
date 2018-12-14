@@ -718,7 +718,7 @@ input:checked ~ .radio {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/city.jpg") 25% / cover no-repeat fixed;
+    url("../images/city.jpg") 25% / cover no-repeat;
   text-align: center;
 }
 
@@ -727,7 +727,7 @@ input:checked ~ .radio {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/xfactor-banner.jpg") 90% / cover no-repeat fixed;
+    url("../images/xfactor-banner.jpg") 90% / cover no-repeat;
   text-align: left;
 }
 
@@ -735,7 +735,7 @@ input:checked ~ .radio {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/pst-banner.jpg") 76% / cover no-repeat fixed;
+    url("../images/pst-banner.jpg") 76% / cover no-repeat;
   text-align: left;
 }
 
@@ -743,7 +743,7 @@ input:checked ~ .radio {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/campaign-banner.jpg") right / cover no-repeat fixed;
+    url("../images/campaign-banner.jpg") right / cover no-repeat;
     text-align: left;
 }
 
@@ -777,7 +777,7 @@ input:checked ~ .radio {
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-    url("../images/xfactor-banner.jpg") 90% / cover no-repeat fixed;
+    url("../images/xfactor-banner.jpg") 90% / cover no-repeat;
     z-index: 0;
 }
 
@@ -786,7 +786,7 @@ input:checked ~ .radio {
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-    url("../images/pst-banner.jpg") 76% / cover no-repeat fixed;
+    url("../images/pst-banner.jpg") 76% / cover no-repeat;
     z-index: 0;
 }
 
@@ -795,7 +795,7 @@ input:checked ~ .radio {
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-    url("../images/campaign-banner.jpg") right / cover no-repeat fixed;
+    url("../images/campaign-banner.jpg") right / cover no-repeat;
     z-index: 0;
 }
 
@@ -1023,6 +1023,7 @@ footer {
     text-align: center;
     width: 100%;
   }
+
 
   .banner-content-case {
     width: 100%;
