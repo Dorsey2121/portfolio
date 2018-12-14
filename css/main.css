@@ -12,12 +12,74 @@
   --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
 }
 
+
+/*
+nav a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 20px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+nav a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 20px;
+	}
+} */
+
+nav a:hover{
+  opacity: .8;
+}
+
+
+
 html {
   font-family: var(--font-primary);
   color: var(--color-primary-dark);
   background-color: var(--color-secondary-light);
   overflow-x: hidden;
+}
 
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--color-primary-light);
+}
+
+
+h3 {
+  color: var(--color-primary);
+}
+
+.about-me-h2 {
+  color: var(--color-primary-light);
+}
+
+.white {
+  color: var(--color-primary);
+}
+
+.footer-p {
+  display: flex;
+  align-items: flex-end;
 }
 
 .none {
@@ -37,426 +99,383 @@ html {
   padding: .2em .6em;
 }
 
-.slider-holder
-        {
-            width: 300px;
-            height: 450px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 0px;
-            text-align: center;
-            overflow: hidden;
-        }
 
-        .image-holder {
-            width: 1800px;
-            height: 450px;
-            clear: both;
-            position: relative;
-
-            -webkit-transition: left 2s;
-            -moz-transition: left 2s;
-            -o-transition: left 2s;
-            transition: left 2s;
-        }
-
-        .slider-image
-        {
-            float: left;
-            margin: 0px;
-            padding: 0px;
-            position: relative;
-          height: 388px;
-          width: 300px;
-        }
-
-        #slider-image-1:target ~ .image-holder
-        {
-            left: 0px;
-        }
-
-        #slider-image-2:target ~ .image-holder
-        {
-            left: -300px;
-        }
-
-        #slider-image-3:target ~ .image-holder
-        {
-            left: -600px;
-        }
-         #slider-image-4:target ~ .image-holder
-        {
-            left: -900px;
-        }
-          #slider-image-5:target ~ .image-holder
-        {
-            left: -1200px;
-        }
-         #slider-image-6:target ~ .image-holder
-        {
-            left: -1500px;
-        }
-.button-holder
-        {
-            position: relative;
-            top: -50px;
-        }
-
-        .slider-change
-        {
-            display: inline-block;
-          height: 50px;
-          width: 50px;
-            border-radius: 5px;
-            background-color: brown;
-        }
-
-        .slider-change-image
-        {
-
-          height: 50px;
-          width: 50px;
-        }
+/* -------------image slider--------------------- */
 
 
+.slider-holder {
+  width: 300px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
 
+.image-holder {
+  width: 1800px;
+  height: 450px;
+  clear: both;
+  position: relative;
 
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
 
-.footer-p {
-  display: flex;
-  align-items: flex-end;
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  height: 388px;
+  width: 300px;
 }
 
 
+#slider-image-1:target ~ .image-holder
+{
+  left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+  left: -300px;
+}
+
+#slider-image-3:target ~ .image-holder
+{
+  left: -600px;
+}
+#slider-image-4:target ~ .image-holder
+{
+  left: -900px;
+}
+#slider-image-5:target ~ .image-holder
+{
+  left: -1200px;
+}
+#slider-image-6:target ~ .image-holder
+{
+  left: -1500px;
+}
+
+.button-holder-67s {
+  bottom: -50px;
+  left: -6px;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.slider-change {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 5px;
+  background-color: var(--color-secondary);
+}
+
+.slider-change-image {
+  height: 55px;
+  width: 55px;
+}
+
+.slider-holder-pst {
+  width: 300px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-holder-pst {
+  width: 900px;
+  height: 450px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 1s;
+  -moz-transition: left 1s;
+  -o-transition: left 1s;
+  transition: left 1s;
+}
+
+.slider-image-pst {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  height: 388;
+  width: 300px;
+}
+
+.button-holder-pst {
+  bottom: -20px;
+  left: -10px;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+#slider-image-pst-1:target ~ .image-holder-pst
+{
+  left: 0px;
+}
+
+#slider-image-pst-2:target ~ .image-holder-pst
+{
+  left: -300px;
+}
+
+#slider-image-pst-3:target ~ .image-holder-pst
+{
+  left: -600px;
+}
+
+
+.slider-holder-golf {
+  width: 300px;
+  height: 469px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-holder-golf {
+  width: 1500px;
+  height: 469px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 1s;
+  -moz-transition: left 1s;
+  -o-transition: left 1s;
+  transition: left 1s;
+}
+
+.slider-image-golf {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  height: 469;
+  width: 300px;
+}
+
+.button-holder-golf {
+  bottom: -60px;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+#slider-image-golf-1:target ~ .image-holder-golf
+{
+  left: 0px;
+}
+
+#slider-image-golf-2:target ~ .image-holder-golf
+{
+  left: -300px;
+}
+
+#slider-image-golf-3:target ~ .image-holder-golf
+{
+  left: -600px;
+}
+#slider-image-golf-4:target ~ .image-holder-golf
+{
+  left: -900px;
+}
+#slider-image-golf-5:target ~ .image-holder-golf
+{
+  left: -1200px;
+}
+#slider-image-golf-6:target ~ .image-holder-golf
+{
+  left: -1500px;
+}
+#slider-image-golf-7:target ~ .image-holder-golf
+{
+ left: -1800px;
+}
+#slider-image-golf-8:target ~ .image-holder-golf
+{
+left: -2100px;
+}
+
+
+/* -------------image slider--------------------- */
 
 
 
-.slider-holder-pst
-        {
-            width: 300px;
-            height: 450px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 0px;
-            text-align: center;
-            overflow: hidden;
-        }
-
-        .image-holder-pst
-        {
-            width: 900px;
-            height: 450px;
-            clear: both;
-            position: relative;
-
-            -webkit-transition: left 1s;
-            -moz-transition: left 1s;
-            -o-transition: left 1s;
-            transition: left 1s;
-        }
-
-        .slider-image-pst
-        {
-            float: left;
-            margin: 0px;
-            padding: 0px;
-            position: relative;
-          height: 388;
-          width: 300px;
-        }
-
-        #slider-image-pst-1:target ~ .image-holder-pst
-        {
-            left: 0px;
-        }
-
-        #slider-image-pst-2:target ~ .image-holder-pst
-        {
-            left: -300px;
-        }
-
-        #slider-image-pst-3:target ~ .image-holder-pst
-        {
-            left: -600px;
-        }
-         #slider-image-pst-4:target ~ .image-holder-pst
-        {
-            left: -900px;
-        }
-
-.button-holder
-        {
-            position: relative;
-            top: -40px;
-        }
-
-        .slider-change
-        {
-            display: inline-block;
-          height: 40px;
-          width: 40px;
-            border-radius: 5px;
-            background-color: var(--color-secondary);
-        }
-
-        .slider-change-image
-        {
-
-          height: 40px;
-          width: 40px;
-        }
-
-
-
-        .slider-holder-golf
-                {
-                    width: 300px;
-                    height: 469px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    margin-top: 0px;
-                    text-align: center;
-                    overflow: hidden;
-                }
-
-                .image-holder-golf
-                {
-                    width: 2400px;
-                    height: 469px;
-                    clear: both;
-                    position: relative;
-
-                    -webkit-transition: left 1s;
-                    -moz-transition: left 1s;
-                    -o-transition: left 1s;
-                    transition: left 1s;
-                }
-
-                .slider-image-golf
-                {
-                    float: left;
-                    margin: 0px;
-                    padding: 0px;
-                    position: relative;
-                  height: 469;
-                  width: 300px;
-                }
-
-                #slider-image-golf-1:target ~ .image-holder-golf
-                {
-                    left: 0px;
-                }
-
-                #slider-image-golf-2:target ~ .image-holder-golf
-                {
-                    left: -300px;
-                }
-
-                #slider-image-golf-3:target ~ .image-holder-golf
-                {
-                    left: -600px;
-                }
-                 #slider-image-golf-4:target ~ .image-holder-golf
-                {
-                    left: -900px;
-                }
-                  #slider-image-golf-5:target ~ .image-holder-golf
-                {
-                    left: -1200px;
-                }
-                 #slider-image-golf-6:target ~ .image-holder-golf
-                {
-                    left: -1500px;
-                }
-                #slider-image-golf-7:target ~ .image-holder-golf
-               {
-                   left: -1800px;
-               }
-               #slider-image-golf-8:target ~ .image-holder-golf
-              {
-                  left: -2100px;
-              }
-
-
-
-
-
-
-/* Picture atomatic slider */
+/* --------------automatic slider-------------------- */
 
 .container {
-    width: 300px;
-    overflow: hidden;
+  width: 300px;
+  overflow: hidden;
 }
 .img-swipe-ul {
-    width: 10000px;
-    padding: 0;
-    -webkit-animation: slide 25s;
-    -moz-animation: slide 25s;
-    -ms-animation: slide 25s;
-    -o-animation: slide 25s;
-    animation: slide 25s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -ms-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
-    -o-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    position: relative;
+  width: 10000px;
+  padding: 0;
+  -webkit-animation: slide 25s;
+  -moz-animation: slide 25s;
+  -ms-animation: slide 25s;
+  -o-animation: slide 25s;
+  animation: slide 25s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  position: relative;
 }
 
 .img-swipe-li {
-    width: 300px;
-    float: left;
-    list-style: none;
-    position: relative;
+  width: 300px;
+  float: left;
+  list-style: none;
+  position: relative;
 }
 
 
 .img-swipe-ul {
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -ms-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
-    -o-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    /**/
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  -o-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }
 .img-swipe-ul:hover {
-    -webkit-animation-play-state: paused;
-    -moz-animation-play-state: paused;
-    -ms-animation-play-state: paused;
-    -o-animation-play-state: paused;
-    animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 @-webkit-keyframes slide {
-    10% {
-        left: 0;
-    }
-    14%,20% {
-        left: -300px;
-    }
-    24%,30% {
-        left: -600px;
-    }
-    34%,40% {
-        left: -900px;
-    }
-    44%,50% {
-        left: -1200px;
-    }
-    54%,60% {
-        left: -1500px;
-    }
-    64%,70% {
-        left: -1800px;
-    }
-    74%,80% {
-        left: 0;
-    }
+  10% {
+      left: 0;
+  }
+  14%,20% {
+      left: -300px;
+  }
+  24%,30% {
+      left: -600px;
+  }
+  34%,40% {
+      left: -900px;
+  }
+  44%,50% {
+      left: -1200px;
+  }
+  54%,60% {
+      left: -1500px;
+  }
+  64%,70% {
+      left: -1800px;
+  }
+  74%,80% {
+      left: 0;
+  }
 }
 @-moz-keyframes slide {
-    10% {
-        left: 0;
-    }
-    14%,20% {
-        left: -300px;
-    }
-    24%,30% {
-        left: -600px;
-    }
-    34%,40% {
-        left: -900px;
-    }
-    44%,50% {
-        left: -1200px;
-    }
-    54%,60% {
-        left: -1500px;
-    }
-    64%,70% {
-        left: -1800px;
-    }
-    74%,80% {
-        left: 0;
-    }
+  10% {
+      left: 0;
+  }
+  14%,20% {
+      left: -300px;
+  }
+  24%,30% {
+      left: -600px;
+  }
+  34%,40% {
+      left: -900px;
+  }
+  44%,50% {
+      left: -1200px;
+  }
+  54%,60% {
+      left: -1500px;
+  }
+  64%,70% {
+      left: -1800px;
+  }
+  74%,80% {
+      left: 0;
+  }
 }
 @-o-keyframes slide {
-    10% {
-        left: 0;
-    }
-    14%,20% {
-        left: -300px;
-    }
-    24%,30% {
-        left: -600px;
-    }
-    34%,40% {
-        left: -900px;
-    }
-    44%,50% {
-        left: -1200px;
-    }
-    54%,60% {
-        left: -1500px;
-    }
-    64%,70% {
-        left: -1800px;
-    }
-    74%,80% {
-        left: 0;
-    }
+  10% {
+      left: 0;
+  }
+  14%,20% {
+      left: -300px;
+  }
+  24%,30% {
+      left: -600px;
+  }
+  34%,40% {
+      left: -900px;
+  }
+  44%,50% {
+      left: -1200px;
+  }
+  54%,60% {
+      left: -1500px;
+  }
+  64%,70% {
+      left: -1800px;
+  }
+  74%,80% {
+      left: 0;
+  }
 }
 
 @keyframes slide {
-    10% {
-        left: 0;
-    }
-    14%,20% {
-        left: -300px;
-    }
-    24%,30% {
-        left: -600px;
-    }
-    34%,40% {
-        left: -900px;
-    }
-    44%,50% {
-        left: -1200px;
-    }
-    54%,60% {
-        left: -1500px;
-    }
-    64%,70% {
-        left: -1800px;
-    }
-    74%,80% {
-        left: 0;
-    }
+  10% {
+      left: 0;
+  }
+  14%,20% {
+      left: -300px;
+  }
+  24%,30% {
+      left: -600px;
+  }
+  34%,40% {
+      left: -900px;
+  }
+  44%,50% {
+      left: -1200px;
+  }
+  54%,60% {
+      left: -1500px;
+  }
+  64%,70% {
+      left: -1800px;
+  }
+  74%,80% {
+      left: 0;
+  }
 }
 
-/* Picture atomatic slider */
-
-
-
-
-
-
-
-
-
-
-
-
+/* --------------automatic slider-------------------- */
 
 
 .logo {
@@ -489,6 +508,9 @@ small {
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5)
 }
 
+
+
+/* ----------radio image slider---------------------- */
 
 input {
   display: none;
@@ -543,11 +565,6 @@ input:checked ~ .radio {
   overflow: hidden;
 }
 
-
-
-
-
-
 #one, #two, #three, #four, #five, #six, #seven, #eight {
   opacity: 0;
   -webkit-transform: translate(0,0);
@@ -592,7 +609,7 @@ input:checked ~ .radio {
   background-color: #000;
 }
 
-
+/* ----------radio image slider---------------------- */
 
 
 
@@ -609,40 +626,15 @@ input:checked ~ .radio {
   overflow: hidden;
 }
 
-
-
-
-
-
-
-
 .img-flex-90 {
   width: 80%;
 }
-
-
 
 .img-flex-80 {
   width: 65%;
 }
 
-
-
-h1 {
-  font-family: var(--font-primary);
-  color: var(--color-primary);
-  font-weight: bold;
-}
-
-h2 {
-  color: var(--color-primary-light);
-}
-
-
-h3 {
-  color: var(--color-primary);
-}
-
+/* -------------------down arrow------------------ */
 
 #down-arrow {
   animation: arrow 1.5s ease-in-out infinite alternate;
@@ -662,15 +654,11 @@ h3 {
   }
 }
 
+/* -------------------down arrow------------------ */
 
 
-.about-me-h2 {
-  color: var(--color-primary-light);
-}
 
-.white {
-  color: var(--color-primary);
-}
+/* ------------button------------------ */
 
 .btn-ghost {
   color: var(--color-primary);
@@ -721,6 +709,11 @@ h3 {
   height: 4.75rem;
 }
 
+/* ------------button------------------ */
+
+
+/* ----------------banner-------------------- */
+
 .intro-banner {
   height: 100vh;
   background:
@@ -746,13 +739,6 @@ h3 {
   text-align: left;
 }
 
-
-
-
-
-
-
-
 .campaign-banner {
   height: 100vh;
   background:
@@ -769,8 +755,6 @@ h3 {
   width: 100%;
 }
 
-
-
 .banner-content-case {
   width: 100%;
   position: absolute;
@@ -780,18 +764,11 @@ h3 {
   display: block;
 }
 
-
-
-
 #about-me {
   height: 100vh;
   position: relative;
   z-index: 0;
 }
-
-
-
-
 
 #case-1 {
   height: 100vh;
@@ -820,11 +797,6 @@ h3 {
     z-index: 0;
 }
 
-#case-1 .pro {
-
-}
-
-
 .project .pro{
   background: linear-gradient(rgba(25,19,3,0), rgba(25,19,3,1));
   width: 100%;
@@ -844,6 +816,9 @@ h3 {
 }
 
 
+/* ----------------banner-------------------- */
+
+
 .social:hover {
   opacity: .8;
 }
@@ -853,17 +828,6 @@ a {
   text-decoration: none;
   transition: color .25s;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .no-under,
 .no-under:hover,
@@ -886,7 +850,6 @@ a.no-under:focus {
   left: 0;
   z-index: 10000;
 }
-
 
 .nav-label {
   width: 2rem;
@@ -956,22 +919,19 @@ a.no-under:focus {
           transform: translate(-50%, 50%) rotate(-45deg);
 }
 
-
 .masthead {
   background-color: var(--color-primary-dark);
   padding-bottom: 2.8em;
 }
 
-
-
 .nav {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100vh;
   top: 0;
   background-color: var(--color-primary-dark);
   transition: top;
-  padding-top: 6em;
+  padding-top: 10em;
   text-align: center;
   top: -300vw;
   opacity: 0;
@@ -1013,22 +973,8 @@ footer {
 }
 
 #logo {
-height: 80%;
+  height: 80%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 38em) {
 
@@ -1040,10 +986,7 @@ height: 80%;
     background-color: transparent;
   }
 
-
-
-
-.nav {
+  .nav {
     position: static;
     width: auto;
     height: auto;
@@ -1066,13 +1009,14 @@ height: 80%;
     color: var(--color-primary);
   }
 
-  nav a:hover,
+  /* nav a:hover,
   nav a:focus,
   nav a:active {
     text-decoration: underline;
-    animation: text-decoration .3s;
+    animation: text-decoration 1s;
+  } */
 
-  }
+
 
   .none {
     display: none;
@@ -1082,12 +1026,9 @@ height: 80%;
     display: block;
   }
 
-
 }
 
 @media only screen and (min-width: 60em) {
-
-
 
   .banner-content-case {
     width: 100%;
@@ -1100,11 +1041,9 @@ height: 80%;
 
 
   .project .pro {
-
     display: block;
     padding-left: 15em;
     padding-bottom: 6em;
-
   }
 
   .project .pro .tags {
@@ -1116,197 +1055,193 @@ height: 80%;
   }
 
 
-  /* Picture atomatic slider */
+/* --------------Picture atomatic slider--------------------- */
 
   .container {
-      width: 400px;
-      overflow: hidden;
+    width: 400px;
+    overflow: hidden;
   }
+
   .img-swipe-ul {
-      width: 10000px;
-      padding: 0;
-      -webkit-animation: slide 25s;
-      -moz-animation: slide 25s;
-      -ms-animation: slide 25s;
-      -o-animation: slide 25s;
-      animation: slide 25s;
-      -webkit-animation-iteration-count: infinite;
-      -moz-animation-iteration-count: infinite;
-      -ms-animation-iteration-count: infinite;
-      -o-animation-iteration-count: infinite;
-      animation-iteration-count: infinite;
-      -webkit-animation-timing-function: ease-in-out;
-      -moz-animation-timing-function: ease-in-out;
-      -ms-animation-timing-function: ease-in-out;
-      -o-animation-timing-function: ease-in-out;
-      animation-timing-function: ease-in-out;
-      position: relative;
+    width: 10000px;
+    padding: 0;
+    -webkit-animation: slide 25s;
+    -moz-animation: slide 25s;
+    -ms-animation: slide 25s;
+    -o-animation: slide 25s;
+    animation: slide 25s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    position: relative;
   }
 
   .img-swipe-li {
-      width: 400px;
-      float: left;
-      list-style: none;
-      position: relative;
+    width: 400px;
+    float: left;
+    list-style: none;
+    position: relative;
   }
 
 
   .img-swipe-ul {
-      -webkit-animation-iteration-count: infinite;
-      -moz-animation-iteration-count: infinite;
-      -ms-animation-iteration-count: infinite;
-      -o-animation-iteration-count: infinite;
-      animation-iteration-count: infinite;
-      -webkit-animation-timing-function: ease-in-out;
-      -moz-animation-timing-function: ease-in-out;
-      -ms-animation-timing-function: ease-in-out;
-      -o-animation-timing-function: ease-in-out;
-      animation-timing-function: ease-in-out;
-      /**/
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
   }
+
   .img-swipe-ul:hover {
-      -webkit-animation-play-state: paused;
-      -moz-animation-play-state: paused;
-      -ms-animation-play-state: paused;
-      -o-animation-play-state: paused;
-      animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -ms-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
   }
 
   @-webkit-keyframes slide {
-      10% {
-          left: 0;
-      }
-      14%,20% {
-          left: -400px;
-      }
-      24%,30% {
-          left: -800px;
-      }
-      34%,40% {
-          left: -1200px;
-      }
-      44%,50% {
-          left: -1600px;
-      }
-      54%,60% {
-          left: -2000px;
-      }
-      64%,70% {
-          left: -2400px;
-      }
-      74%,80% {
-          left: 0;
-      }
+    10% {
+      left: 0;
+    }
+    14%,20% {
+      left: -400px;
+    }
+    24%,30% {
+      left: -800px;
+    }
+    34%,40% {
+      left: -1200px;
+    }
+    44%,50% {
+      left: -1600px;
+    }
+    54%,60% {
+      left: -2000px;
+    }
+    64%,70% {
+      left: -2400px;
+    }
+    74%,80% {
+      left: 0;
+    }
   }
+
   @-moz-keyframes slide {
-      10% {
-          left: 0;
-      }
-      14%,20% {
-          left: -400px;
-      }
-      24%,30% {
-          left: -800px;
-      }
-      34%,40% {
-          left: -1200px;
-      }
-      44%,50% {
-          left: -1600px;
-      }
-      54%,60% {
-          left: -2000px;
-      }
-      64%,70% {
-          left: -2400px;
-      }
-      74%,80% {
-          left: 0;
-      }
+    10% {
+      left: 0;
+    }
+    14%,20% {
+      left: -400px;
+    }
+    24%,30% {
+      left: -800px;
+    }
+    34%,40% {
+      left: -1200px;
+    }
+    44%,50% {
+      left: -1600px;
+    }
+    54%,60% {
+      left: -2000px;
+    }
+    64%,70% {
+      left: -2400px;
+    }
+    74%,80% {
+      left: 0;
+    }
   }
+
   @-o-keyframes slide {
-      10% {
-          left: 0;
-      }
-      14%,20% {
-          left: -400px;
-      }
-      24%,30% {
-          left: -800px;
-      }
-      34%,40% {
-          left: -1200px;
-      }
-      44%,50% {
-          left: -1600px;
-      }
-      54%,60% {
-          left: -2000px;
-      }
-      64%,70% {
-          left: -2400px;
-      }
-      74%,80% {
-          left: 0;
-      }
+    10% {
+      left: 0;
+    }
+    14%,20% {
+      left: -400px;
+    }
+    24%,30% {
+      left: -800px;
+    }
+    34%,40% {
+      left: -1200px;
+    }
+    44%,50% {
+      left: -1600px;
+    }
+    54%,60% {
+      left: -2000px;
+    }
+    64%,70% {
+      left: -2400px;
+    }
+    74%,80% {
+      left: 0;
+    }
   }
 
   @keyframes slide {
-      10% {
-          left: 0;
-      }
-      14%,20% {
-          left: -400px;
-      }
-      24%,30% {
-          left: -800px;
-      }
-      34%,40% {
-          left: -1200px;
-      }
-      44%,50% {
-          left: -1600px;
-      }
-      54%,60% {
-          left: -2000px;
-      }
-      64%,70% {
-          left: -2400px;
-      }
-      74%,80% {
-          left: 0;
-      }
+    10% {
+      left: 0;
+    }
+    14%,20% {
+      left: -400px;
+    }
+    24%,30% {
+      left: -800px;
+    }
+    34%,40% {
+      left: -1200px;
+    }
+    44%,50% {
+      left: -1600px;
+    }
+    54%,60% {
+      left: -2000px;
+    }
+    64%,70% {
+      left: -2400px;
+    }
+    74%,80% {
+      left: 0;
+    }
   }
 
-  /* Picture atomatic slider */
+/* --------------Picture atomatic slider--------------------- */
 
 
 
-
-
-
-
-
-
-
-
+/* -------------------Nav Dot image slider---------------------- */
 
   .slides {
-      padding: 0;
-      width: 400px;
-      height: 435px;
-      display: block;
-      margin: 0 auto;
-      position: relative;
+    padding: 0;
+    width: 400px;
+    height: 435px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
   }
 
   .slides * {
-      user-select: none;
-      -ms-user-select: none;
-      -moz-user-select: none;
-      -khtml-user-select: none;
-      -webkit-user-select: none;
-      -webkit-touch-callout: none;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
   }
 
   .slides input { display: none; }
@@ -1314,29 +1249,25 @@ height: 80%;
   .slide-container { display: block; }
 
   .slide {
-      top: 0;
-      opacity: 0;
-      width: 400px;
-      height: 400px;
-      display: block;
-      position: absolute;
-
-      transform: scale(0);
-
-      transition: all .7s ease-in-out;
+    top: 0;
+    opacity: 0;
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+    transition: all .7s ease-in-out;
   }
 
   .slide img {
-      width: 100%;
-      height: 100%;
+    width: 100%;
+    height: 100%;
   }
 
   input:checked + .slide-container  .slide {
-      opacity: 1;
-
-      transform: scale(1);
-
-      transition: opacity 1s ease-in-out;
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out;
   }
 
   input:checked + .slide-container { display: block; }
@@ -1376,291 +1307,187 @@ height: 80%;
   }
 
 
-
-
-          .slider-holder
-                  {
-                      width: 400px;
-                      height: 600px;
-                      margin-left: auto;
-                      margin-right: auto;
-                      margin-top: 0px;
-                      text-align: center;
-                      overflow: hidden;
-                  }
-
-                  .image-holder
-                  {
-                      width: 2400px;
-                      height: 600px;
-                      clear: both;
-                      position: relative;
-
-                      -webkit-transition: left 2s;
-                      -moz-transition: left 2s;
-                      -o-transition: left 2s;
-                      transition: left 2s;
-                  }
-
-                  .slider-image
-                  {
-                      float: left;
-                      margin: 0px;
-                      padding: 0px;
-                      position: relative;
-                    height: 518px;
-                    width: 400px;
-                  }
-
-                  #slider-image-1:target ~ .image-holder
-                  {
-                      left: 0px;
-                  }
-
-                  #slider-image-2:target ~ .image-holder
-                  {
-                      left: -400px;
-                  }
-
-                  #slider-image-3:target ~ .image-holder
-                  {
-                      left: -800px;
-                  }
-                   #slider-image-4:target ~ .image-holder
-                  {
-                      left: -1200px;
-                  }
-                    #slider-image-5:target ~ .image-holder
-                  {
-                      left: -1600px;
-                  }
-                   #slider-image-6:target ~ .image-holder
-                  {
-                      left: -2000px;
-                  }
-          .button-holder
-                  {
-                      position: relative;
-                      top: -50px;
-                  }
-
-                  .slider-change
-                  {
-                      display: inline-block;
-                    height: 50px;
-                    width: 50px;
-                      border-radius: 5px;
-                      background-color: brown;
-                  }
-
-                  .slider-change-image
-                  {
-
-                    height: 50px;
-                    width: 50px;
-                  }
+/* -------------------Nav Dot image slider---------------------- */
 
 
 
 
 
+/* ------------image slider---------------------- */
 
-                                    .slider-holder-golf
-                                            {
-                                                width: 400px;
-                                                height: 625px;
-                                                margin-left: auto;
-                                                margin-right: auto;
-                                                margin-top: 0px;
-                                                text-align: center;
-                                                overflow: hidden;
-                                            }
-
-                                            .image-holder-golf
-                                            {
-                                                width: 3200px;
-                                                height: 625px;
-                                                clear: both;
-                                                position: relative;
-
-                                                -webkit-transition: left 1s;
-                                                -moz-transition: left 1s;
-                                                -o-transition: left 1s;
-                                                transition: left 1s;
-                                            }
-
-                                            .slider-image-golf
-                                            {
-                                                float: left;
-                                                margin: 0px;
-                                                padding: 0px;
-                                                position: relative;
-                                              height: 580;
-                                              width: 400px;
-                                            }
-
-                                            #slider-image-golf-1:target ~ .image-holder-golf
-                                            {
-                                                left: 0px;
-                                            }
-
-                                            #slider-image-golf-2:target ~ .image-holder-golf
-                                            {
-                                                left: -400px;
-                                            }
-
-                                            #slider-image-golf-3:target ~ .image-holder-golf
-                                            {
-                                                left: -800px;
-                                            }
-                                             #slider-image-golf-4:target ~ .image-holder-golf
-                                            {
-                                                left: -1200px;
-                                            }
-                                              #slider-image-golf-5:target ~ .image-holder-golf
-                                            {
-                                                left: -1600px;
-                                            }
-                                             #slider-image-golf-6:target ~ .image-holder-golf
-                                            {
-                                                left: -2000px;
-                                            }
-                                            #slider-image-golf-7:target ~ .image-holder-golf
-                                           {
-                                               left: -2400px;
-                                           }
-                                           #slider-image-golf-8:target ~ .image-holder-golf
-                                          {
-                                              left: -2800px;
-                                          }
-                                    .button-holder
-                                            {
-                                                position: relative;
-                                                top: -40px;
-                                            }
-
-                                            .slider-change
-                                            {
-                                                display: inline-block;
-                                              height: 40px;
-                                              width: 40px;
-                                                border-radius: 5px;
-                                                background-color: var(--color-secondary);
-                                            }
-
-                                            .slider-change-image
-                                            {
-
-                                              height: 40px;
-                                              width: 40px;
-                                            }
+  .button-holder-67s {
+    bottom: -60px;
+    left: -6px;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+  }
 
 
+  .slider-holder-golf {
+    width: 400px;
+    height: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .image-holder-golf {
+    width: 3200px;
+    height: 625px;
+    clear: both;
+    position: relative;
+
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+  }
+
+  .slider-image-golf {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 580;
+    width: 400px;
+  }
+
+  .button-holder-golf {
+    bottom: -70px;
+    left: -.1em;
+  }
+
+  #slider-image-golf-1:target ~ .image-holder-golf
+  {
+      left: 0px;
+  }
+
+  #slider-image-golf-2:target ~ .image-holder-golf
+  {
+      left: -400px;
+  }
+
+  #slider-image-golf-3:target ~ .image-holder-golf
+  {
+      left: -800px;
+  }
+   #slider-image-golf-4:target ~ .image-holder-golf
+  {
+      left: -1200px;
+  }
+    #slider-image-golf-5:target ~ .image-holder-golf
+  {
+      left: -1600px;
+  }
+   #slider-image-golf-6:target ~ .image-holder-golf
+  {
+      left: -2000px;
+  }
+  #slider-image-golf-7:target ~ .image-holder-golf
+  {
+       left: -2400px;
+  }
+ /* #slider-image-golf-8:target ~ .image-holder-golf
+{
+    left: -2800px;
+} */
 
 
+  .slider-holder-pst {
+    width: 400px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
 
+  .image-holder-pst {
+    width: 3200px;
+    height: 550px;
+    clear: both;
+    position: relative;
 
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+  }
 
+  .slider-image-pst {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 500;
+    width: 400px;
+  }
 
+  .button-holder-pst {
+    bottom: -50px;
+    left: -.5em;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+  }
 
+  #slider-image-pst-1:target ~ .image-holder-pst
+  {
+      left: 0px;
+  }
 
-                          .slider-holder-pst
-                                  {
-                                      width: 400px;
-                                      height: 550px;
-                                      margin-left: auto;
-                                      margin-right: auto;
-                                      margin-top: 0px;
-                                      text-align: center;
-                                      overflow: hidden;
-                                  }
+  #slider-image-pst-2:target ~ .image-holder-pst
+  {
+      left: -400px;
+  }
 
-                                  .image-holder-pst
-                                  {
-                                      width: 3200px;
-                                      height: 550px;
-                                      clear: both;
-                                      position: relative;
+  #slider-image-pst-3:target ~ .image-holder-pst
+  {
+      left: -800px;
+  }
+   #slider-image-pst-4:target ~ .image-holder-pst
+  {
+      left: -1200px;
+  }
+    #slider-image-pst-5:target ~ .image-holder-pst
+  {
+      left: -1600px;
+  }
+   #slider-image-pst-6:target ~ .image-holder-pst
+  {
+      left: -2000px;
+  }
+  #slider-image-pst-7:target ~ .image-holder-pst
+  {
+     left: -2400px;
+  }
+  #slider-image-pst-8:target ~ .image-holder-pst
+  {
+    left: -2800px;
+  }
 
-                                      -webkit-transition: left 1s;
-                                      -moz-transition: left 1s;
-                                      -o-transition: left 1s;
-                                      transition: left 1s;
-                                  }
+  .button-holder-golf {
+    bottom: -70px;
+    left: -.1em;
+  }
 
-                                  .slider-image-pst
-                                  {
-                                      float: left;
-                                      margin: 0px;
-                                      padding: 0px;
-                                      position: relative;
-                                    height: 500;
-                                    width: 400px;
-                                  }
+  .slider-change {
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+  }
 
-                                  #slider-image-pst-1:target ~ .image-holder-pst
-                                  {
-                                      left: 0px;
-                                  }
+  .slider-change-image {
+    height: 65px;
+    width: 65px;
+  }
 
-                                  #slider-image-pst-2:target ~ .image-holder-pst
-                                  {
-                                      left: -400px;
-                                  }
-
-                                  #slider-image-pst-3:target ~ .image-holder-pst
-                                  {
-                                      left: -800px;
-                                  }
-                                   #slider-image-pst-4:target ~ .image-holder-pst
-                                  {
-                                      left: -1200px;
-                                  }
-                                    #slider-image-pst-5:target ~ .image-holder-pst
-                                  {
-                                      left: -1600px;
-                                  }
-                                   #slider-image-pst-6:target ~ .image-holder-pst
-                                  {
-                                      left: -2000px;
-                                  }
-                                  #slider-image-pst-7:target ~ .image-holder-pst
-                                 {
-                                     left: -2400px;
-                                 }
-                                 #slider-image-pst-8:target ~ .image-holder-pst
-                                {
-                                    left: -2800px;
-                                }
-                          .button-holder
-                                  {
-                                      position: relative;
-                                      top: -40px;
-                                  }
-
-                                  .slider-change
-                                  {
-                                      display: inline-block;
-                                    height: 40px;
-                                    width: 40px;
-                                      border-radius: 5px;
-                                      background-color: var(--color-secondary);
-                                  }
-
-                                  .slider-change-image
-                                  {
-
-                                    height: 40px;
-                                    width: 40px;
-                                  }
-
-
-
-
-
-
-
-
-
+/* ------------image slider---------------------- */
 
 }
