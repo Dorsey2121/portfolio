@@ -763,6 +763,7 @@ input:checked ~ .radio {
   left: 50%;
   padding-bottom: 17em;
   display: block;
+  text-align: center;
 }
 
 #about-me {
@@ -1031,6 +1032,7 @@ footer {
     transform: none;
     padding-bottom: 17em;
     display: block;
+    text-align: left;
   }
 
   #about-me {
