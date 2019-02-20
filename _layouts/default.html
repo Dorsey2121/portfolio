@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Paul Dorsey</title>
+  <meta name="description" content="A graphic design portfolio designed by Paul Dorsey">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+  <link href="{{site.baseurl}}/favicon.ico" rel="shortcut icon">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li class="smooth-scroll"><a href="#work">Jump to main content</a></li>
+    <li><a class="skip-scroll" href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header class="masthead"  role="navigation">
+    <div class="nav-tog pad-t-2 pad-b-1-2 gutter-1-2">
+      <div class="text-left">
+        <a href="#footer-nav" id="nav-tog" class="nav-label" tabindex="0">
+          <span class="tog top"></span>
+          <span class="tog middle"></span>
+          <span class="tog bottom"></span>
+        </a>
+      </div>
+    </div>
+
+    <nav class="nav grid nav-closed pad-t wrapper" role="navigation">
+
+      <ul class="unit xs-1 m-1-2 list-group push-0 smooth-scroll text-left">
+        <li><a id="nav" class="mega bold island block text-upper" href="{{site.baseurl}}/">Home</a></li>
+        <li><a id="nav" class="mega bold island block text-upper" href="{{site.baseurl}}/#about-me">About</a></li>
+      </ul>
+
+      <ul class="unit xs-1 m-1-2 list-group push-0 right smooth-scroll text-right">
+        <li><a id="nav" class="mega bold smooth-scroll island block text-upper" href="{{site.baseurl}}/#case-1">work</a></li>
+        <li><a id="nav" class="mega bold island block text-upper" href="mailto:dors0019@algonquinlive.com">contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="logo absolute block pin-ct">
+      <a href="{{site.baseurl}}/">
+        <i class="icon i-96">
+          <img id="logo" src="{{site.baseurl}}/images/svg/logo.svg" alt="Paul Dorsey">
+        </i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    {{content}}
+  </main>
+
+  <footer class="pad-t pad-b none-1">
+    <div class="grid wrapper gutter">
+      <div class="unit [ s-0 m-1-2 ]">
+        <div class="media footer-p">
+          <div class="media-img">
+            <a class="social" href="#">
+              <i class="icon i-64">
+                <img class="" src="{{site.baseurl}}/images/svg/logo.svg" alt="Paul Dorsey">
+              </i>
+            </a>
+
+          </div>
+          <div class="media-body text-left">
+            <small class="micro">© Paul Dorsey | 2018</small>
+          </div>
+        </div>
+      </div>
+      <div class="unit [ s-1 m-0 ] push">
+        <div class="media">
+          <div class="media-img">
+            <i class="icon i-64">
+              <img class="" src="{{site.baseurl}}/images/svg/logo.svg" alt="Paul Dorsey">
+            </i>
+          </div>
+          <div class="media-body text-left">
+            <small class="micro">© Paul Dorsey | 2018</small>
+          </div>
+        </div>
+      </div>
+      <div class="unit [ m-1-2 ] text-center">
+        <ul class="list-group-inline push-1-2 text-right">
+          <li class="island-1-4">
+            <a class="social" href="#">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/mail.svg" alt="">
+              </i>
+            </a>
+          </li>
+          <li class="island-1-4">
+            <a class="social" href="#">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/instagram.svg" alt="">
+              </i>
+            </a>
+          </li>
+          <li class="island-1-4">
+            <a class="social" href="#">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/vimeo.svg" alt="">
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="none">
+    <div class="text-center">
+      <div class="push pad-t">
+        <a class="social" href="index.html">
+          <i class=" icon i-64">
+            <img src="{{site.baseurl}}/images/svg/logo.svg" alt="Paul Dorsey">
+          </i>
+        </a>
+      </div>
+
+      <div class="">
+        <ul class="list-group-inline push-1-2">
+          <li class="island-1-4">
+            <a class="social" href="mailto:dors0019@algonquinlive.com">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/mail.svg" alt="">
+              </i>
+            </a>
+          </li>
+          <li class="island-1-4">
+            <a class="social" href="https://www.instagram.com/paul.dorsey21/">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/instagram.svg" alt="">
+              </i>
+            </a>
+          </li>
+          <li class="island-1-4">
+            <a class="social" href="https://vimeo.com/user71780679">
+              <i class="icon i-48">
+                <img src="{{site.baseurl}}/images/svg/vimeo.svg" alt="">
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="">
+        <small class="inline-block push-1-2 micro">© Paul Dorsey | 2018</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/main.js"></script>
+
+
+</body>
+</html>
