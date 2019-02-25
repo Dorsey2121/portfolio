@@ -12,6 +12,13 @@
   --shadow-secondary: -1px 3px 8px rgba(0, 0, 0, .35);
 }
 
+.nav-left {
+  text-align: center;
+}
+
+.nav-right {
+  text-align: center;
+}
 
 .img-center {
   text-align: center;
@@ -1139,6 +1146,16 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
+
+
+  .nav-left {
+    text-align: left;
+  }
+
+  .nav-right {
+    text-align: right;
+  }
+
 
   .beaton-big {
     display: block;
