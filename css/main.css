@@ -829,6 +829,7 @@ input:checked ~ .radio {
 
 /* ----------------banner-------------------- */
 
+
 .intro-banner {
   height: 100vh;
   background:
@@ -840,7 +841,7 @@ input:checked ~ .radio {
 .royal-banner {
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top right / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top right / cover no-repeat,
     url("../images/royal-city-banner-1.jpg") 90% / cover no-repeat;
   text-align: center;
 }
@@ -849,7 +850,7 @@ input:checked ~ .radio {
 .xfactor-banner {
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/xfactor-banner-1.jpg") 90% / cover no-repeat;
   text-align: center;
 }
@@ -857,7 +858,7 @@ input:checked ~ .radio {
 .royal {
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) left / cover no-repeat,
     url("../images/grid-royal-city-banner.jpg") 40% / cover no-repeat;
   text-align: center;
 }
@@ -865,7 +866,7 @@ input:checked ~ .radio {
 .janice-banner {
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/hair-by-janice-banner.jpg") 10% / cover no-repeat;
   text-align: center;
 }
@@ -873,7 +874,7 @@ input:checked ~ .radio {
 .pst-banner {
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/banner-pst.jpg") 76% / cover no-repeat;
   text-align: center;
 }
@@ -881,7 +882,7 @@ input:checked ~ .radio {
 .campaign-banner {
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/campaign-banner.jpg") right / cover no-repeat;
     text-align: center;
 }
@@ -889,7 +890,7 @@ input:checked ~ .radio {
 .fun {
   height: 100vh;
   background:
-    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/fun.jpg") right / cover no-repeat;
     text-align: center;
 }
@@ -914,7 +915,7 @@ input:checked ~ .radio {
   height: 100vh;
   position: relative;
   background:
-    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/xfactor-banner.jpg") 90% / cover no-repeat;
     z-index: 0;
 }
@@ -923,7 +924,7 @@ input:checked ~ .radio {
   height: 100vh;
   position: relative;
   background:
-    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/pst-banner.jpg") 76% / cover no-repeat;
     z-index: 0;
 }
@@ -932,7 +933,7 @@ input:checked ~ .radio {
   height: 100vh;
   position: relative;
   background:
-    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/campaign-banner.jpg") right / cover no-repeat;
     z-index: 0;
 }
@@ -941,7 +942,7 @@ input:checked ~ .radio {
   height: 100vh;
   position: relative;
   background:
-    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/hair-by-janice-banner.jpg") right / cover no-repeat;
     z-index: 0;
 }
@@ -950,7 +951,7 @@ input:checked ~ .radio {
   height: 100vh;
   position: relative;
   background:
-    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/royal-city-banner.jpg") left / cover no-repeat;
     z-index: 0;
 }
@@ -959,7 +960,7 @@ input:checked ~ .radio {
   height: 100vh;
   position: relative;
   background:
-    linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
     url("../images/more-fun-banner.jpg") right / cover no-repeat;
     z-index: 0;
 }
