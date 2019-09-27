@@ -1233,7 +1233,7 @@ footer {
     height: 60vh;
     background:
       linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top left / cover no-repeat,
-      url("../images/moms-new-banner") 10% / cover no-repeat fixed;
+      url("../images/moms-new-banner.jpg") 10% / cover no-repeat fixed;
     text-align: center;
   }
 
