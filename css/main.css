@@ -943,7 +943,7 @@ input:checked ~ .radio {
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/hair-by-janice-banner.jpg") right / cover no-repeat;
+    url("../images/moms-new-banner.jpg") right / cover no-repeat;
     z-index: 0;
 }
 
