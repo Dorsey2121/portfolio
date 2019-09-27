@@ -867,7 +867,7 @@ input:checked ~ .radio {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/moms-new-banner.jpg") 10% / cover no-repeat;
+    url("../images/mom.jpg") 10% / cover no-repeat;
   text-align: center;
 }
 
@@ -943,7 +943,7 @@ input:checked ~ .radio {
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/moms-new-banner.jpg") right / cover no-repeat;
+    url("../images/moms.jpg") right / cover no-repeat;
     z-index: 0;
 }
 
@@ -1233,7 +1233,7 @@ footer {
     height: 60vh;
     background:
       linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) top left / cover no-repeat,
-      url("../images/moms-new-banner.jpg") 10% / cover no-repeat fixed;
+      url("../images/moms.jpg") 10% / cover no-repeat fixed;
     text-align: center;
   }
 
@@ -1287,7 +1287,7 @@ footer {
     position: relative;
     background:
       linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-      url("../images/moms-new-banner.jpg") right / cover no-repeat fixed;
+      url("../images/mom.jpg") right / cover no-repeat fixed;
       z-index: 0;
   }
 
@@ -1296,7 +1296,7 @@ footer {
     position: relative;
     background:
       linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-      url("../images/moms-new-banner.jpg") right / cover no-repeat fixed;
+      url("../images/mom.jpg") right / cover no-repeat fixed;
       z-index: 0;
   }
 
