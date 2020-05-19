@@ -961,16 +961,7 @@ input:checked ~ .radio {
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/more-fun-banner.jpg") right / cover no-repeat;
-    z-index: 0;
-}
-
-.case-7 {
-  height: 100vh;
-  position: relative;
-  background:
-    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/pst-banner.jpg") 76% / cover no-repeat;
+    url("../images/guide-dogs-banner.jpg") right / cover no-repeat;
     z-index: 0;
 }
 
@@ -1322,16 +1313,7 @@ footer {
     position: relative;
     background:
       linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-      url("../images/more-fun-banner.jpg") right / cover no-repeat fixed;
-      z-index: 0;
-  }
-
-  .case-7 {
-    height: 100vh;
-    position: relative;
-    background:
-      linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-      url("../images/pst-banner.jpg") 76% / cover no-repeat fixed;
+      url("../images/guide-dogs-banner.jpg") right / cover no-repeat fixed;
       z-index: 0;
   }
 
