@@ -1326,7 +1326,14 @@ footer {
       z-index: 0;
   }
 
-
+  #case-7 {
+    height: 100vh;
+    position: relative;
+    background:
+      linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+      url("../images/guide-dogs-banner.jpg") right / cover no-repeat fixed;
+      z-index: 0;
+  }
 
   .project .pro{
     background: linear-gradient(rgba(25,19,3,0), rgba(25,19,3,1));
