@@ -970,9 +970,11 @@ input:checked ~ .radio {
   position: relative;
   background:
     linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
-    url("../images/more-fun-banner.jpg") right / cover no-repeat;
+    url("../images/pst-banner.jpg") 76% / cover no-repeat;
     z-index: 0;
 }
+
+
 
 
 .project .pro{
@@ -1331,7 +1333,7 @@ footer {
     position: relative;
     background:
       linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
-      url("../images/more-fun-banner.jpg") right / cover no-repeat fixed;
+      url("../images/pst-banner.jpg") 76% / cover no-repeat fixed;
       z-index: 0;
   }
 
