@@ -947,7 +947,7 @@ input:checked ~ .radio {
     z-index: 0;
 }
 
-#case-6 {
+#case-7 {
   height: 100vh;
   position: relative;
   background:
@@ -1298,7 +1298,7 @@ footer {
       z-index: 0;
   }
 
-  #case-6 {
+  #case-7 {
     height: 100vh;
     position: relative;
     background:
