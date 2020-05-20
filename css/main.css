@@ -947,6 +947,15 @@ input:checked ~ .radio {
     z-index: 0;
 }
 
+#case-6 {
+  height: 100vh;
+  position: relative;
+  background:
+    linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)) top left / cover no-repeat,
+    url("../images/moms.jpg") right / cover no-repeat;
+    z-index: 0;
+}
+
 #case-5 {
   height: 100vh;
   position: relative;
@@ -1281,6 +1290,15 @@ footer {
   }
 
   #case-4 {
+    height: 100vh;
+    position: relative;
+    background:
+      linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) top left / cover no-repeat,
+      url("../images/mom.jpg") right / cover no-repeat fixed;
+      z-index: 0;
+  }
+
+  #case-6 {
     height: 100vh;
     position: relative;
     background:
